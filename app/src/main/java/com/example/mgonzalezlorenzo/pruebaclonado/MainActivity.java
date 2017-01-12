@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Jinetes de Rohan!!! Os hago un juramento!!! Dad orden al cumplimiento!!! Por el Rey y la Tierra!!!", Snackbar.LENGTH_LONG)
+                Snackbar.make(view, "Jinetes de Rohan!!! Os ata un juramento!!! Dad orden al cumplimiento!!! Por el Rey y la Tierra!!!", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
         });
